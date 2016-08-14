@@ -1,0 +1,27 @@
+{
+  "FPU_VERSION":{
+    "type":"enum",
+    "default":0,
+    "enum":["fpv4-sp-d16"]
+  },
+  "FPU_ABI":{
+    "type":"enum",
+    "default":1,
+    "enum":[
+      "soft",
+      "softfp",
+      "hardfp"
+    ],
+    "gen-list":{
+    	"FEATURE_FLOAT":"to_int(this)"
+    }
+  },
+  "ARCH_RECIPE":{
+    "type":"recipe",
+    "path":"./recipe.mk"
+  },
+  "DEP_CONFIG": {  
+    "type":"config",
+    "path":"./depend/config.json"
+  }
+}

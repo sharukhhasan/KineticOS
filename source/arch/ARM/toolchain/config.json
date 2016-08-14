@@ -1,0 +1,13 @@
+{
+  "TOOLCHAIN":{
+    "type":"enum",
+    "default":0,
+    "enum":[
+      "ARM_GCC"
+    ]
+  },
+  "TOOLCHAIN_SUB_CONFIG":{
+    "type":"config",
+    "path":"./$TOOLCHAIN/config.json"
+  }
+}

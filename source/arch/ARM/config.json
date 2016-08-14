@@ -1,0 +1,24 @@
+{
+  "ARCH_NAME":{
+    "type":"enum",
+    "default":3,
+    "enum":[
+      "cortex-m0",
+      "cortex-m0+",
+      "cortex-m3",
+      "cortex-m4"
+    ]
+  },
+  "ARCH_SPEC_CONFIG":{
+    "type":"config",
+    "path":"./$ARCH_NAME/config.json"
+  },
+  "TOOLCHAIN_CONFIG":{
+    "type":"config",
+    "path":"./toolchain/config.json"
+  },
+  "ARM_RECIPE":{
+  	"type":"recipe",
+  	"path":"./recipe.mk"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "FPU_ABI":{
+    "type":"enum",
+    "force":"y",
+    "default":0,
+    "enum":[
+      "soft",
+      "softfp",
+      "hardfp"
+    ]
+  },
+  "ARCH_RECIPE":{
+    "type":"recipe",
+    "path":"./recipe.mk"
+  },
+  "DEP_CONFIG": {  
+    "type":"config",
+    "path":"./depend/config.json"
+  }
+}
