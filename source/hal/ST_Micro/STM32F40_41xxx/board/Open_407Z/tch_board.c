@@ -1,8 +1,8 @@
-/*
- * tch_boardcfg.c
+/**
  *
- *  Created on: Aug 23, 2015
- *      Author: innocentevil
+ * Created by Sharukh Hasan on 8/06/16.
+ * Copyright © 2016 HyperCryptic Solutions, LLC. All rights reserved.
+ *
  */
 
 #include "tch_board.h"

@@ -1,15 +1,8 @@
-/*
- * tch_adc.c
+/**
  *
- *  Copyright (C) 2014 doowoong,lee
- *  All rights reserved.
+ * Created by Sharukh Hasan on 8/04/16.
+ * Copyright © 2016 HyperCryptic Solutions, LLC. All rights reserved.
  *
- *  This software may be modified and distributed under the terms
- *  of the LGPL v3 license.  See the LICENSE file for details.
- *
- *
- *  Created on: 2014. 6. 27.
- *      Author: innocentevil
  */
 
 #include "tch_hal.h"

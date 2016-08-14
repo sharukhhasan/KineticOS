@@ -1,8 +1,8 @@
-/*
- * tch_boot.c
+/**
  *
- *  Created on: 2015. 8. 4.
- *      Author: innocentevil
+ * Created by Sharukh Hasan on 8/06/16.
+ * Copyright © 2016 HyperCryptic Solutions, LLC. All rights reserved.
+ *
  */
 
 

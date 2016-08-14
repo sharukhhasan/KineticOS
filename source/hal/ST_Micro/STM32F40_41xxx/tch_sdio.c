@@ -1,8 +1,8 @@
-/*
- * tch_sdio.c
+/**
  *
- *  Created on: 2016. 1. 27.
- *      Author: innocentevil
+ * Created by Sharukh Hasan on 8/06/16.
+ * Copyright © 2016 HyperCryptic Solutions, LLC. All rights reserved.
+ *
  */
 
 
